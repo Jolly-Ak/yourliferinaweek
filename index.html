@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Life</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Your Life in Weeks</h1>
+    <div class="life">
+        <ul id="liste"></ul>
+        <div id="legend">
+            <div id="skybluelegend" class="legend"><p>childhood</p></div>
+            <div id="bluelegend" class="legend"><p>école </p></div>
+            <div id="greenlegend" class="legend"><p>College</p></div>
+            <div id="redlegend" class="legend"><p>Université</p></div>
+            <div id="purplelegend" class="legend"><p>Travail</p></div>
+            <div id="yellowlegend" class="legend"><p>Lycée</p></div>
+        </div>
+        <button id="toggle-legend-btn">Afficher la légende</button>
+    </div>
+
+    <div class="date">
+        <label for="date-input">Sélectionnez une date :</label>
+        <input type="date" id="date-input" class="date-input" placeholder="Date de naissance">
+        <button id="save-btn">Sauvegarder</button>
+        <p>Date sauvegardée : <span id="saved-date"></span></p>
+    </div>
+
+    <div class="information"></div>
+    <script src="script.js"></script>
+</body>
+</html>
